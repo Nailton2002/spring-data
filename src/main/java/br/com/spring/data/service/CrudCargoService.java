@@ -1,11 +1,11 @@
-package br.com.alura.spring.data.service;
+package br.com.spring.data.service;
 
 import java.util.Scanner;
 
 import org.springframework.stereotype.Service;
 
-import br.com.alura.spring.data.orm.Cargo;
-import br.com.alura.spring.data.repository.CargoRepository;
+import br.com.spring.data.orm.Cargo;
+import br.com.spring.data.repository.CargoRepository;
 
 @Service
 public class CrudCargoService {
@@ -47,9 +47,7 @@ public class CrudCargoService {
 				system = false;
 				break;
 			}
-			
 		}
-		
 	}
 	
 	private void salvar(Scanner scanner) {

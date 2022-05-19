@@ -1,11 +1,11 @@
-package br.com.alura.spring.data.service;
+package br.com.spring.data.service;
 
 import java.util.Scanner;
 
 import org.springframework.stereotype.Service;
 
-import br.com.alura.spring.data.orm.UnidadeTrabalho;
-import br.com.alura.spring.data.repository.UnidadeTrabalhoRepository;
+import br.com.spring.data.orm.UnidadeTrabalho;
+import br.com.spring.data.repository.UnidadeTrabalhoRepository;
 
 @Service
 public class CrudUnidadeTrabalhoService {

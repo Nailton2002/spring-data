@@ -1,4 +1,4 @@
-package br.com.alura.spring.data.service;
+package br.com.spring.data.service;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -13,12 +13,12 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
-import br.com.alura.spring.data.orm.Cargo;
-import br.com.alura.spring.data.orm.Funcionario;
-import br.com.alura.spring.data.orm.UnidadeTrabalho;
-import br.com.alura.spring.data.repository.CargoRepository;
-import br.com.alura.spring.data.repository.FuncionarioRepository;
-import br.com.alura.spring.data.repository.UnidadeTrabalhoRepository;
+import br.com.spring.data.orm.Cargo;
+import br.com.spring.data.orm.Funcionario;
+import br.com.spring.data.orm.UnidadeTrabalho;
+import br.com.spring.data.repository.CargoRepository;
+import br.com.spring.data.repository.FuncionarioRepository;
+import br.com.spring.data.repository.UnidadeTrabalhoRepository;
 
 @Service
 public class CrudFuncionarioService {

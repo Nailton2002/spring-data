@@ -1,6 +1,7 @@
-package br.com.alura.spring.data.orm;
+package br.com.spring.data.orm;
 
 public interface FuncionarioProjecao {
+	
 	Integer getId();
 	String getNome();
 	Double getSalario();

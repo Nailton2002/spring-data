@@ -1,4 +1,4 @@
-package br.com.alura.spring.data.orm;
+package br.com.spring.data.orm;
 
 import java.util.List;
 

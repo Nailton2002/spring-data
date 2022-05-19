@@ -1,4 +1,4 @@
-package br.com.alura.spring.data;
+package br.com.spring.data;
 
 import java.util.Scanner;
 
@@ -7,11 +7,11 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
-import br.com.alura.spring.data.service.CrudCargoService;
-import br.com.alura.spring.data.service.CrudFuncionarioService;
-import br.com.alura.spring.data.service.CrudUnidadeTrabalhoService;
-import br.com.alura.spring.data.service.RelatorioFuncionarioDinamico;
-import br.com.alura.spring.data.service.RelatoriosService;
+import br.com.spring.data.service.CrudCargoService;
+import br.com.spring.data.service.CrudFuncionarioService;
+import br.com.spring.data.service.CrudUnidadeTrabalhoService;
+import br.com.spring.data.service.RelatorioFuncionarioDinamico;
+import br.com.spring.data.service.RelatoriosService;
 
 @EnableJpaRepositories
 @SpringBootApplication

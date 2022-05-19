@@ -1,10 +1,10 @@
-package br.com.alura.spring.data.specification;
+package br.com.spring.data.specification;
 
 import java.time.LocalDate;
 
 import org.springframework.data.jpa.domain.Specification;
 
-import br.com.alura.spring.data.orm.Funcionario;
+import br.com.spring.data.orm.Funcionario;
 
 public class SpecificationFuncionario {
 

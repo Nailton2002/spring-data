@@ -1,4 +1,4 @@
-package br.com.alura.spring.data.service;
+package br.com.spring.data.service;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -8,9 +8,9 @@ import java.util.Scanner;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
 
-import br.com.alura.spring.data.orm.Funcionario;
-import br.com.alura.spring.data.repository.FuncionarioRepository;
-import br.com.alura.spring.data.specification.SpecificationFuncionario;
+import br.com.spring.data.orm.Funcionario;
+import br.com.spring.data.repository.FuncionarioRepository;
+import br.com.spring.data.specification.SpecificationFuncionario;
 
 @Service
 public class RelatorioFuncionarioDinamico {
